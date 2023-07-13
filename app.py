@@ -15,7 +15,7 @@ background: linear-gradient(90deg, rgba(190,188,211,1) 0%, rgba(105,231,103,1) 3
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load the model from the pickle file
-with open("artefacts/model_xgb_1.pkl", "rb") as f:
+with open("model_xgb_1.pkl", "rb") as f:
     model = pickle.load(f)
 
 def upload_csv_file():
