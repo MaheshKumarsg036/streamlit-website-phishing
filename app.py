@@ -35,9 +35,6 @@ def main():
     st.title(':red[Phishing Website detector] :male-detective:')
 
 
-    # Add hacker image next to the title
-    image = "https://cdn.pixabay.com/photo/2020/04/10/20/09/hacker-5027679_1280.jpg"
-    st.image(image, caption="Hacker",width=200)
     st.markdown("""
     **:blue[This app uses a machine learning model to detect phishing websites.]**
     """)
