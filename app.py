@@ -8,8 +8,7 @@ import pickle
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background: rgb(190,188,211);
-background: linear-gradient(90deg, rgba(190,188,211,1) 0%, rgba(105,231,103,1) 35%, rgba(30,190,15,1) 83%, rgba(13,214,236,1) 92%, rgba(5,213,248,1) 97%, rgba(0,212,255,1) 100%);
+  background-color: #d0d0d0;
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
